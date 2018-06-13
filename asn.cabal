@@ -1,7 +1,7 @@
 name:                asn
 version:             0.1.0.0
-synopsis:            asn
-description:         asn
+synopsis:            asn type and encoding/decoding
+description:         asn type and encoding/decoding api
 homepage:            https://github.com/chessai/asn.git
 license:             BSD3
 license-file:        LICENSE
