@@ -19,7 +19,7 @@ import qualified Data.Text as T
 import qualified Data.Text.Read as TR
 
 newtype Asn = Asn { getAsn :: Word32 }
-  deriving (Show,Read,Eq,Ord,Prim,Hashable,Storable)
+  deriving (Show,Read,Eq,Ord,Prim,Hashable,Storable,Enum,Bounded)
 
 instance AE.ToJSON Asn where
   toJSON = AE.String . encode
